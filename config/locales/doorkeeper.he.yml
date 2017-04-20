@@ -31,7 +31,7 @@ en:
       help:
         native_redirect_uri: שימוש ב %{native_redirect_uri} לבדיקות מקומיות
         redirect_uri: שימוש בשורה אחת לכל URI
-        scopes: יש להפריד תחומים בעזרת רווחים. נה להשאיר ריק על מנת להשתמש בתחום המחדל.
+        scopes: יש להפריד תחומים בעזרת רווחים. נה להשאיר ריק על מנת להשתמש בתחום ברירת המחדל.
       index:
         callback_url: Callback URL
         name: שם
@@ -74,7 +74,7 @@ en:
         access_denied: בעלי המשאב או שרת ההרשאה דחו את הבקשה.
         credential_flow_not_configured: התהליך "Resource Owner Password Credentials" נכשל בשל חוסר בתצורת Doorkeeper.configure.resource_owner_from_credentials.
         invalid_client: הרשאת הלקוח נכשלה עקב לקוח שאינו ידוע, חוסר בהרשאת לקוח או שיטת הרשאה שאינה נתמכת.
-        invalid_grant: חוזה ההרשאה המצורף אינו חוקי, אינו תקף, מבוטל, או שאינו מתאים לURI ההפניה שבשימוש על ידי בקשת ההרשאה, או שהופק על ידי לקוח אחר.
+        invalid_grant: חוזה ההרשאה המצורף אינו חוקי, אינו תקף, מבוטל, או שאינו מתאים ל- URI ההפניה שבשימוש על ידי בקשת ההרשאה, או שהופק על ידי לקוח אחר.
         invalid_redirect_uri: URI ההפניה המצורף אינו חוקי.
         invalid_request: הבקשה חסרה פרמטר נדרש, מכילה פרמטר עם ערך שאיננו נתמך, או שתצורתה שגויה.
         invalid_resource_owner: הרשאות בעלי המשאב שהוזנו אינן חוקיות, או שלא ניתן למצוא את בעלי המשאב.
